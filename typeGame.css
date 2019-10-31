@@ -1,0 +1,66 @@
+*{
+      font-family: "Trebuchet MS", arial, helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      background: #333;
+    }
+
+    .top{
+      background: #555;
+      text-align: center;
+      line-height: 5rem;
+      color: white;
+    }
+
+    .container{
+      background: #333;
+      height: 100%;
+      display: grid;
+      grid-gap: 20px;
+      text-align: center;
+      width: 80%;
+      margin: 3% 10%;
+      color: #fff;
+    }
+
+    input[type= text]{
+      font-size: 1.5rem;
+      padding: 5px;
+    }
+
+    .instruction{
+      width: 100%;
+      background: #444;
+      padding: 30px;
+    }
+
+    .instruction h2{
+      margin-bottom: 20px;
+    }
+
+    .instruction p{
+      line-height: 1.2rem;
+    }
+
+    #display{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .addition{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 40px;
+    }
+
+    #word{
+      font-size: 3rem;
+    }
+
+    #seconds{
+      color: green;
+    }
