@@ -55,7 +55,8 @@
           }
       }
       
-      
+
+//match the word
     function matchWord(){
       if(wordInput.value=== currentWord.innerHTML){
         message.innerHTML= "Correct !!!";
@@ -67,6 +68,7 @@
 
     }
 
+//countDown starts
     function countDown(){
       if(time> 0){
         time--;
@@ -74,6 +76,8 @@
       timeDisplay.innerHTML= time;
     }
 
+
+//checkStatus everytime
     function checkStatus(){
       if(time===0){
         message.innerHTML= 'Game Over!!!';
