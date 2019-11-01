@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WordBeater</title>
+  </head>
+<body>
+  <div class= 'top'>
+    <h1>WordBeater</h1>
+  </div>
+  <div class= 'container'>
+    <p class= 'instruct'>Type The Given Word Within <span id= 'seconds'>5</span> Seconds</p>
+    <p id= 'word'>hello</p>
+    <input type="text" id= 'input' placeholder= 'Start typing...' autofocus>
+    <p id= 'message'></p>
+    <div id= 'display'>
+      <p>Time: <span id= 'time'>0</span></p>
+      <p>Score: <span  id= 'score'>0</span></p>
+    </div>
+    <div class= 'instruction'>
+      <h2>Instructions</h2>
+      <p>Type each word in the given amount of time to score. To play again just type the current word your score will restart.</p>
+    </div>
+    <div class= 'addition'>
+      <select name= 'Level' id= 'level'>
+        <option value= 5>Easy</option>
+        <option value= 3>Medium</option>
+        <option value= 1>Hard</option>
+      </select>
+      <p>High Score: <span id= 'highScore'>0</span></p>
+    </div>
+  </div>
+</body>
+</html>
